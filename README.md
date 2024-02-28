@@ -3,6 +3,7 @@ Overview
 This project aims to predict customer churn for a telecommunications company. Customer churn, also known as customer attrition, refers to the phenomenon where customers stop doing business with a company. Predicting churn can help businesses understand and anticipate customer behavior, allowing them to take proactive measures to retain customers and mitigate revenue loss.
 
 ##Dataset
+
 The dataset used for this project contains information about telecom customers, including demographics, services subscribed, and churn status. The dataset includes the following columns:
 
 customerID: Unique identifier for each customer
@@ -27,6 +28,7 @@ MonthlyCharges: The amount charged to the customer monthly
 TotalCharges: The total amount charged to the customer
 Churn: Whether the customer churned (Yes, No)
 ##Goals
+
 Perform Exploratory Data Analysis (EDA) to visualize and understand the distribution of features and the relationship between each feature and customer churn.
 Predict customer churn using various machine learning models, including Logistic Regression, Random Forest, XGBoost, and CatBoost.
 Understand how each feature impacts the predicted churn using feature importance and SHAP (SHapley Additive exPlanations).
@@ -36,6 +38,7 @@ your_dataset.csv: CSV file containing the dataset used in the project.
 README.md: This README file providing an overview of the project.
 
 #Usage
+
 Clone the repository to your local machine.
 Install the required libraries listed in requirements.txt using pip install -r requirements.txt.
 Open and run the Jupyter Notebook customer_churn_prediction.ipynb to explore the code and execute the analysis.
@@ -48,4 +51,5 @@ xgboost
 shap
 
 ##Credits
+
 This project is created by Gurram Ruthvi Chaitanya.
